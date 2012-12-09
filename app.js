@@ -15,3 +15,9 @@ if (Ti.version < 1.8 ) {
 	var Window = require('win1');
 	new Window().open();
 })();
+
+<html>
+	head
+	
+	body
+</html>
