@@ -77,7 +77,7 @@ function win1(){
 	button1.addEventListener('click',function(){
 		var alertDialog = Titanium.UI.createAlertDialog({
 			title: 'アラート',
-			message: '新規登録を押しました',
+			message: 'ログインを押しました',
 			buttonNames: ['OK']
 		}).show();
 		return;
@@ -87,5 +87,6 @@ function win1(){
 		Textfield2.blur();
 	});
 	win.open({transition:Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT});
+	return win;
 }
 module.exports = win1;
